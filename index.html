@@ -29,8 +29,8 @@
         <div class="container ">
             <div class="works-block ">
                 <div class="works-item" v-for="(work, i) in works" :key="work.name+i">
-                    <a :href="work.link" class="works-item__link">
-                        <div :style="`background-image: url(./img/${i+1}.png)`" :alt="work.name" class="works-item__img"></div>
+                    <a :href="work.link" class="works-item__link" target="_blank">
+                        <div :style="`background-image: url(./img/${work.image}.png)`" :alt="work.name" class="works-item__img"></div>
                         <p class="works-item__title">{{ work.name }}</p>
                     </a>
                 </div>
