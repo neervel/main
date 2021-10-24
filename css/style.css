@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap");
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: #F4FAFF;
+  color: #00171F;
+}
+
+a {
+  text-decoration: none;
+  color: #00171F;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(45deg, #0062ff 30%, #61efff 100%);
+  color: #fff;
+  position: relative;
+}
+
+.hero-scroll {
+  position: absolute;
+  bottom: 50px;
+}
+
+.hero-scroll svg {
+  height: 30px;
+  width: auto;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.hero h3 {
+  font-size: 24px;
+}
+
+.works {
+  margin-top: 50px;
+  min-height: 100vh;
+}
+
+.works-block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.works-item {
+  width: 100%;
+}
+
+.works-item:hover p {
+  text-decoration: underline;
+}
+
+.works-item__img {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+.works-item__title {
+  font-size: 18px;
+  text-align: center;
+  max-width: 90%;
+  height: 30px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
