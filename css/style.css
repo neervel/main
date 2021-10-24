@@ -25,6 +25,7 @@ a {
   justify-content: center;
   flex-direction: column;
   position: relative;
+  color: #fff;
 }
 
 .hero-text {
@@ -37,6 +38,7 @@ a {
 .hero-scroll {
   position: absolute;
   bottom: 50px;
+  z-index: 2;
 }
 
 .hero-scroll svg {
@@ -46,12 +48,11 @@ a {
 
 .hero-bg {
   position: absolute;
-  top: 20%;
-  left: 20%;
-  height: 270px;
-  width: 270px;
-  background: radial-gradient(167.76% 167.76% at 50% 50%, #5111BA 0%, #EEEDEF 100%);
-  filter: blur(250px);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, #5111BA 0%, #EEEDEF 100%);
   z-index: 1;
   opacity: .7;
 }
@@ -81,7 +82,7 @@ a {
 
 .works-item {
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .works-item:hover p {
@@ -94,7 +95,7 @@ a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .works-item__title {
@@ -126,10 +127,6 @@ a {
   }
   .hero h1 {
     font-size: 32px;
-  }
-  .hero-bg {
-    height: 150px;
-    width: 150px;
   }
   .works-block {
     grid-template-columns: 1fr;
