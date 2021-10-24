@@ -2,11 +2,6 @@ const app = new Vue({
     el: '#works',
     data: {
         works: [{
-                name: 'Промо-сайт для курсов по похудению',
-                link: 'https://sergeymetalnikov.com/',
-                image: 'sergeymetalnikov'
-            },
-            {
                 name: 'Dango - сервис совместных поездок',
                 link: 'https://neervel.github.io/dango/',
                 image: 'dango'
@@ -15,6 +10,16 @@ const app = new Vue({
                 name: 'Naidenova - личный сайт художницы',
                 link: 'https://neervel.github.io/naidenova/',
                 image: 'naidenova'
+            },
+            {
+                name: 'TRY.ME - сайт компании по подбору персонала',
+                link: 'https://neervel.github.io/tryme/',
+                image: 'tryme'
+            },
+            {
+                name: 'Промо-сайт для курсов по похудению',
+                link: 'https://sergeymetalnikov.com/',
+                image: 'sergeymetalnikov'
             },
             {
                 name: 'Delivery Food - сервис доставки',
