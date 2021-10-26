@@ -17,6 +17,11 @@ const app = new Vue({
                 image: 'tryme'
             },
             {
+                name: 'Просто вкусно - сайт доставки здорового питания',
+                link: 'https://neervel.github.io/prostovkusno/',
+                image: 'prostovkusno'
+            },
+            {
                 name: 'Промо-сайт для курсов по похудению',
                 link: 'https://sergeymetalnikov.com/',
                 image: 'sergeymetalnikov'
